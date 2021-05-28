@@ -1,6 +1,6 @@
 # useGavis
 
-Sometimes you may want to send event imperatively. For example, the Button component below sends event on click.
+Sometimes you may want to send log imperatively. For example, the Button component below sends log on click.
 
 ```jsx
 import { useGavis } from "gavis";

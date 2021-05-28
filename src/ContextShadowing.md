@@ -1,8 +1,8 @@
 # Context Shadowing
 
-Context shadowing for events is a key concept of Gavis.
+Context shadowing is a key concept of Gavis.
 
-With Context shadowing, you can override the event context easily.
+With Context shadowing, you can override the logger context easily.
 
 ```jsx
 function Page() {
@@ -28,7 +28,7 @@ function Article({ index }) {
 }
 ```
 
-In the example above, there will be 4 events sent to the server.
+In the example above, there will be 4 logs sent to the server.
 
 1. `{category: "page", action: "page_view"}` sent on Page mount
 2. `{category: "page", action: "page_view" data: {index: 0}}` sent on Article mount
