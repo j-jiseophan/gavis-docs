@@ -14,3 +14,7 @@ function Button() {
   );
 }
 ```
+
+## Supported events(WIP)
+
+- click
