@@ -4,5 +4,6 @@
 
 - [Installation](./Installation.md)
 - [Configuration](./Configuration.md)
-- [Gavis](./Gavis.md)
+- [〈Gavis/〉](./Gavis.md)
 - [useGavis](./useGavis.md)
+- [Context Shadowing](./ContextShadowing.md)
