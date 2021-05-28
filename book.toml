@@ -4,6 +4,13 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Gavis"
+description="A declarative analytics logging library for React"
 
 [build]
 build-dir="docs"
+
+[output.html]
+git-repository-url="https://github.com/j-jiseophan/gavis"
+
+[output.html.print]
+enable=false
