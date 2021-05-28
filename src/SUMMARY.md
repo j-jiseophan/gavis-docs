@@ -1,10 +1,16 @@
 - [Introduction](./Introduction.md)
 
+---
+
 # Basics
 
-- [Installation](./Installation.md)
-- [Configuration](./Configuration.md)
-- [〈Gavis/〉](./Gavis.md)
-- [〈GavisElement/〉](./GavisElement.md)
-- [useGavis](./useGavis.md)
-- [Context Shadowing](./ContextShadowing.md)
+- [Installation](./basics/Installation.md)
+- [Configuration](./basics/Configuration.md)
+- [〈Gavis/〉](./basics/Gavis.md)
+- [〈GavisElement/〉](./basics/GavisElement.md)
+- [useGavis](./basics/useGavis.md)
+- [Context Shadowing](./basics/ContextShadowing.md)
+
+---
+
+[Change Log](./ChangeLog.md)
