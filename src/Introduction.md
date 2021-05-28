@@ -4,7 +4,7 @@
 
 ## Motivation
 
-Analytics logging is so boring task and it sometimes makes the code complicated. To solve this problem, Slack engineering team devised fine solutions to analytics logging(blog post). This library started from implementing core concepts of their approaches. Gavis is a declarative way to writing analytics logging code, which helps you write smaller but more readable code.
+Writting analytics logging code is so boring and stressful. It makes the code complicated and may cause performance issues. To solve this problem, Slack engineering team devised a [fine way](https://slack.engineering/creating-a-react-analytics-logging-library/) to writting analytics logging code. This library started from implementing core concepts of their approaches. Gavis is a declarative way to writing analytics logging code, which helps you write smaller but more readable code.
 
 ## Features
 
