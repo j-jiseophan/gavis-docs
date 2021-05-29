@@ -31,4 +31,6 @@ In the example above, the `<GavisElement/>` creates `<div/>` element with classN
 ## Supported events(WIP)
 
 - mount
+- unmount
+- click
 - firstObserve(using IntersectionObserver)

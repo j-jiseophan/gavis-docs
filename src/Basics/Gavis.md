@@ -27,3 +27,4 @@ function Page() {
 ## Supported events(WIP)
 
 - mount
+- unmount
