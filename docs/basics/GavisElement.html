@@ -164,7 +164,7 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="gaviselement"><a class="header" href="#gaviselement">〈GavisElement/〉</a></h1>
-<p><code>&lt;Gavis/&gt;</code> component is basically a context provider. It does create a DOM element. However, many events such as click, keydown and intersection need a real DOM element to be catched. Using <code>&lt;GavisElement&gt;</code> you can create any kind of element with the functionality of <Gavis/>.</p>
+<p><code>&lt;Gavis/&gt;</code> component is basically a context provider. It does create a DOM element. However, many events such as click, keydown and intersection need a real DOM element to be catched. Using <code>&lt;GavisElement&gt;</code> you can create any kind of element with the functionality of <code>&lt;Gavis/&gt;</code>.</p>
 <pre><code class="language-jsx">import { Gavis } from &quot;gavis&quot;;
 
 function Page() {
@@ -191,6 +191,8 @@ function Page() {
 <h2 id="supported-eventswip"><a class="header" href="#supported-eventswip">Supported events(WIP)</a></h2>
 <ul>
 <li>mount</li>
+<li>unmount</li>
+<li>click</li>
 <li>firstObserve(using IntersectionObserver)</li>
 </ul>
 
