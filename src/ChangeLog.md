@@ -1,15 +1,20 @@
 # Change Log
 
+## 0.4.0
+
+- Feature: Support `unmount` event for `<Gavis/>`, `<GavisElement/>`
+- Feature: Support `click` event for `<GavisElement/>`
+
 ## 0.3.0
 
 - Feature: `<GavisElement/>`
-- Feature: support `firstObserve` event
+- Feature: Support `firstObserve` event
 
 ## 0.2.0
 
 - Feature: `useGavis`
-- Feature: support `click` event
-- Feature: Implmeent function type `data` prop
+- Feature: Support `click` event
+- Feature: Support function type `data` prop
 
 ## 0.1.0
 
