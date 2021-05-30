@@ -10,6 +10,7 @@
 - [〈GavisElement/〉](./basics/GavisElement.md)
 - [useGavis](./basics/useGavis.md)
 - [Context Shadowing](./basics/ContextShadowing.md)
+- [Debug mode](./basics/DebugMode.md)
 
 ---
 

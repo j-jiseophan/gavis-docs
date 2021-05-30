@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.5.0
+
+- Feature: Debug mode
+- Add Gavis Playground
+
 ## 0.4.0
 
 - Feature: Support `unmount` event for `<Gavis/>`, `<GavisElement/>`
