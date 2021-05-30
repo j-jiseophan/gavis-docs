@@ -1,6 +1,6 @@
 # 〈GavisElement/〉
 
-`<Gavis/>` component is basically a context provider. It does create a DOM element. However, many events such as click, keydown and intersection need a real DOM element to be catched. Using `<GavisElement>` you can create any kind of element with the functionality of `<Gavis/>`.
+`<Gavis/>` component is basically a context provider. It does not create a DOM element. However, many events such as click, keydown and intersection need a real DOM element to be catched. Using `<GavisElement>` you can create any kind of element with the functionality of `<Gavis/>`.
 
 ```jsx
 import { Gavis } from "gavis";

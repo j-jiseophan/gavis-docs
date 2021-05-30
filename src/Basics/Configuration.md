@@ -19,8 +19,3 @@ function App() {
   );
 }
 ```
-
-> The word 'context' in this document means..
->
-> 1. An Object with category, action, label(optional) and data(optional) which is sent to the server.
-> 2. '1.' as a value of Context Provider
