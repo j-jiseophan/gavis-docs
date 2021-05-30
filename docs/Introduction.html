@@ -165,15 +165,45 @@
                     <main>
                         <h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
 <p><code>Gavis - A declarative analytics logging library for React</code></p>
-<h2 id="motivation"><a class="header" href="#motivation">Motivation</a></h2>
-<p>Writing code for analytics logging is so boring and stressful. It makes the code complicated and may cause performance issues. To solve this problem, Slack engineering team devised a <a href="https://slack.engineering/creating-a-react-analytics-logging-library/">fine way</a> to writting analytics logging code. Gavis started from implementing core concepts of their approaches. It helps you write smaller but more readable code.</p>
+<p>Writing code for analytics logging is so boring and stressful. I wanted not to spend much time on writing codes related to logging but to focus on the application itself.
+Gavis is an analytics logging library which helps you ..</p>
+<ol>
+<li>Send logs in declarative ways</li>
+<li>Get data needed for logging with less code</li>
+<li>Prevent sending duplicate logs for a single event</li>
+<li>Testing easily</li>
+</ol>
+<h2 id="overview"><a class="header" href="#overview">Overview</a></h2>
+<pre><code class="language-jsx">// without Gavis
+const Page = () =&gt; {
+  useEffect(() =&gt; {
+    sendLog({ category: &quot;Post&quot;, action: &quot;view&quot; });
+  }, [sendLog]);
+
+  return &lt;div&gt;Hello World&lt;/div&gt;;
+};
+</code></pre>
+<p>Can be rewritten using Gavis :</p>
+<pre><code class="language-jsx">// with Gavis
+const Page = () =&gt; {
+  return (
+    &lt;Gavis category=&quot;Post&quot; action=&quot;view&quot; logOnMount&gt;
+      &lt;div&gt;Hello World&lt;/div&gt;
+    &lt;/Gavis&gt;
+  );
+};
+</code></pre>
 <h2 id="features"><a class="header" href="#features">Features</a></h2>
 <ul>
 <li>Support both declarative/imperative ways to handle various cases</li>
-<li>Logger events are reusable across components.</li>
+<li>Log data are reusable across components.</li>
+<li>Automatic deduplication</li>
 <li>Google Analytics compatible</li>
-<li>Typescript first</li>
+<li>Support debug mode which visualizes logs</li>
 </ul>
+<blockquote>
+<p>Gavis was inspired by Slack teams' approaches. If you are interested, <a href="https://slack.engineering/creating-a-react-analytics-logging-library/">read the article</a>.</p>
+</blockquote>
 
                     </main>
 
